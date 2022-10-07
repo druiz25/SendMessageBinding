@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="message"
+            type="com.example.sendmessageBinding.data.Message" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".iu.SendMessageActivity">
+
+        <EditText
+            android:id="@+id/etUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/genMarg"
+            android:autofillHints=""
+            android:hint="@string/etUserHint"
+            android:inputType="textEmailAddress"
+            android:text="@{message.user.name}"
+            android:textColorHint="@color/etUserColorHint" />
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/genMarg"
+            android:autofillHints=""
+            android:hint="@string/etMessageHint"
+            android:inputType="text"
+            android:minHeight="@dimen/etMessageMinHeight"
+            android:text="@={message.content}"
+            android:textColorHint="@color/etMessageColorHint" />
+
+        <Button
+            android:id="@+id/btsend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/btSendMarginTop"
+            android:text="@string/btSendText" />
+
+    </LinearLayout>
+</layout>

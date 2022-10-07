@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="message"
+            type="com.example.sendmessageBinding.data.Message" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".iu.ViewMessageActivity">
+
+        <TextView
+            android:id="@+id/textUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/genMarg"
+            android:hint="@string/vmTextUserHint"
+            android:text="@{message.user.name}"
+            android:textColorHint="@color/etMessageColorHint"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/genMarg"
+            android:text="@{message.content}"
+            android:textColor="@color/tvTextColor"/>
+
+        <TextView
+            android:id="@+id/textRemitente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/genMarg"
+            android:hint="@string/vmText"
+            android:text="@string/vmTextRemitente"
+            android:textColor="@color/etMessageColorHint" />
+
+        <TextView
+            android:id="@+id/textFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/genMarg"
+            android:hint="@string/vmText"
+            android:textColorHint="@color/etMessageColorHint"/>
+
+        <ImageView
+            android:id="@+id/imgMessage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sobre"
+            android:contentDescription="@string/descripcionImagen" />
+
+    </LinearLayout>
+</layout>

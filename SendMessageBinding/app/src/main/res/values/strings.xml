@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SendMessage</string>
+    <string name="etMessageHint">Escribe un mensaje</string>-
+    <string name="etMessageText" />
+    <string name="btSendText">Enviar</string>
+    <string name="etUserHint">Usuario</string>
+    <string name="vmTextRemitente"> </string>
+    <string name="tvUserText">Usuario</string>
+    <string name="aboutUs">Sobre nosotros</string>
+    <string name="vmTextUserHint">El usuario</string>
+    <string name="vmText">Texto</string>
+    <string name="descripcionImagen">imagen decorativa para el activity view message</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SendMessage</string>
+    <string name="etMessageHint">Write a message</string>-
+    <string name="etMessageText" />
+    <string name="btSendText">Send</string>-
+    <string name="etUserHint">User</string>-
+    <string name="vmTextRemitente"> </string>-
+    <string name="tvUserText">User</string>
+    <string name="vmText">Text</string>-
+    <string name="vmTextUserHint">The user</string>-
+    <string name="descripcionImagen">Decorative image used in the send messageActivity</string>-
+    <string name="aboutUs">About us</string>
+</resources>
