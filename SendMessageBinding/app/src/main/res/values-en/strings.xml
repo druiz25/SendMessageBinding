@@ -11,4 +11,10 @@
     <string name="vmTextUserHint">The user</string>-
     <string name="descripcionImagen">Decorative image used in the send messageActivity</string>-
     <string name="aboutUs">About us</string>
+    <string name="nombreAboutUs">Daniel Ruiz Villodres</string>
+    <string name="subTituloAboutUs">Mobile developer</string>
+    <string name="descripcionAboutUs">I like to develop apps</string>
+    <string name="googlePlayStoreLinkAboutUs">8002078663318221363</string>
+    <string name="gitHubUserAboutUs">druiz25</string>
+    <string name="facebookUser">user</string>
 </resources>

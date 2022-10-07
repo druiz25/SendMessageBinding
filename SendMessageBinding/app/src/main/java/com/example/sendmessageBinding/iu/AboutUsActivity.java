@@ -5,8 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.sendmessageBinding.R;
-//import com.vansuita.materialabout.builder.AboutBuilder;
-//import com.vansuita.materialabout.views.AboutView;
+import com.example.sendmessageBinding.SendMessageApplication;
+import com.vansuita.materialabout.builder.AboutBuilder;
+import com.vansuita.materialabout.views.AboutView;
 
 public class AboutUsActivity extends AppCompatActivity {
 
@@ -15,17 +16,17 @@ public class AboutUsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
 
-        /*AboutView view = AboutBuilder.with(this)
-                .setPhoto(R.mipmap.ic_launcher)
-                .setCover(R.mipmap.ic_launcher)
-                .setName("Your Full Name")
-                .setSubTitle("Mobile Developer")
-                .setBrief("Me gusta programar")
+        AboutView view = AboutBuilder.with(this)
+                .setPhoto(R.drawable.foto)
+                .setCover(R.drawable.cover)
+                .setName(R.string.nombreAboutUs)
+                .setSubTitle(R.string.subTituloAboutUs)
+                .setBrief(R.string.descripcionAboutUs)
                 .setAppIcon(R.mipmap.ic_launcher)
                 .setAppName(R.string.app_name)
-                .addGooglePlayStoreLink("8002078663318221363")
-                .addGitHubLink("user")
-                .addFacebookLink("user")
+                .addGooglePlayStoreLink(R.string.googlePlayStoreLinkAboutUs)
+                .addGitHubLink(R.string.gitHubUserAboutUs)
+                .addFacebookLink(R.string.facebookUser)
                 .addFiveStarsAction()
                 .setVersionNameAsAppSubTitle()
                 .addShareAction(R.string.app_name)
@@ -34,6 +35,6 @@ public class AboutUsActivity extends AppCompatActivity {
                 .setShowAsCard(true)
                 .build();
 
-        addContentView(view, layoutParams);*/
+        setContentView(view);
     }
 }

@@ -10,4 +10,10 @@
     <string name="vmTextUserHint">El usuario</string>
     <string name="vmText">Texto</string>
     <string name="descripcionImagen">imagen decorativa para el activity view message</string>
+    <string name="nombreAboutUs">Daniel Ruiz Villodres</string>
+    <string name="subTituloAboutUs">Mobile developer</string>
+    <string name="descripcionAboutUs">Me gusta desarrollar aplicaciones</string>
+    <string name="googlePlayStoreLinkAboutUs">8002078663318221363</string>
+    <string name="gitHubUserAboutUs">druiz25</string>
+    <string name="facebookUser">user</string>
 </resources>

@@ -117,8 +117,9 @@ public class SendMessageActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_aboutUs:
-                Toast.makeText(this, "Se ha pulsado About Us",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Se ha pulsado About Us",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(this, AboutUsActivity.class);
+                startActivity(intent);
                 break;
         }
         return true;

@@ -13,7 +13,7 @@ public class SendMessageApplication extends Application {
         super.onCreate();
         Logger.addLogAdapter(new AndroidLogAdapter());
         Logger.d("Se ha inicializado el objeto Application");
-        user = new User("Daniel", "dani@iesportada.org");
+        user = new User("Daniel Ruiz Villodres", "dani@iesportada.org");
     }
 
     public User getUser() {
